@@ -38,18 +38,25 @@
 
   ### 1.5 Non-Player Characters
 - **REQ-1.5.1**: NPCs must have a happy aesthetic with bright colors and friendly, cartoonish design
-- **REQ-1.5.**: Game must have friendly and unfriendly NPCs
-- **REQ-1.5.**: Friendly NPCs must be animated, anthromorphized representations of common animals and things that young children will recognize.
-- **REQ-1.5.**: Friendly NPCs must have happy faces and cheerful animations.
-- **REQ-1.5.**: Friendly NPCs must have names that are between 2 and 5 characters long
-- **REQ-1.5.**: Frinedly NPC names must match the object that the friendly NPC looks like. E.g., if a friendly NPC is an anthromorphic hat, the NPC's name will be HAT.  If a friendly NPC is a bear, the NPC's name will be BEAR.
-- **REQ-1.5.**: Friendly NPC names must be displayed above or below the friendly NPC
-- **REQ-1.5.**: Friendly NPC names must be missing a letter.
-- **REQ-1.5.**: Unfriendly NPCs must be animated, cartoonish monsters.
-- **REQ-1.5.**: Unfriendly NPCs must have angry faces.
-- **REQ-1.5.**: Unfriendly NPCs must not have names.
-- **REQ-1.5.**: Unfriendly NPCs must not have any text displayed near them.
-- 
+- **REQ-1.5.2**: Game must have friendly and unfriendly NPCs
+- **REQ-1.5.3**: Friendly NPCs must be animated, anthromorphized representations of common animals and things that young children will recognize.
+- **REQ-1.5.4**: Friendly NPCs must have happy faces and cheerful animations.
+- **REQ-1.5.5**: Friendly NPCs must have names that are between 2 and 5 characters long
+- **REQ-1.5.6**: Frinedly NPC names must match the object that the friendly NPC looks like. E.g., if a friendly NPC is an anthromorphic hat, the NPC's name will be HAT.  If a friendly NPC is a bear, the NPC's name will be BEAR
+- **REQ-1.5.7**: Friendly NPC names must be displayed above or below the friendly NPC
+- **REQ-1.5.8**: Friendly NPC names must be missing a letter
+- **REQ-1.5.9**: Unfriendly NPCs must be animated, cartoonish monsters
+- **REQ-1.5.10**: Unfriendly NPCs must have angry faces
+- **REQ-1.5.11**: Unfriendly NPCs must not have names
+- **REQ-1.5.12**: Unfriendly NPCs must not have any text displayed near them
+- **REQ-1.5.13**: Unfriendly NPCs must chase the player
+- **REQ-1.5.14**: When an unfriendly NPC collides with the player, the player will drop one or more letters from their inventory.
+- **REQ-1.5.15**: When the player drops letters, the letters is removed from their inventory and placed back into the game world.
+- **REQ-1.5.16**: When the player drops letters, the letters bounce away from the character and stop moving after a short distance
+- **REQ-1.5.17**: Friendly NPCs intermittently move about the game world
+- **REQ-1.5.18**: When the player interacts with a Friendly NPC, letters in the player's inventory are checked against the Friendly NPCs name.  If the player has the correct letters to spell the NPCs name, the player completes a word.
+
+
 ## 2. Technical Requirements
 
 ### 2.1 Unity Engine
