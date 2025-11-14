@@ -7,7 +7,9 @@
 - **REQ-1.1.2**: Player must support smooth movement in X and Y dimensions (top-down or side-scrolling)
 - **REQ-1.1.3**: Player movement must respond to both keyboard (WASD/Arrow keys) and console controller inputs
 - **REQ-1.1.4**: Player must have an interaction capability (e.g., "E" key or controller button)
-- **REQ-1.1.5**: Player character should have idle, walk, and interaction animations
+- **REQ-1.1.5**: Player must be able to collect a letter by interacting with it.
+- **REQ-1.1.6**: Player character should have idle, walk, jump, pick up, interact, and carry animations
+- **REQ-1.1.7**: Default player representation must be a young boy with dark brown hair, brown eyes, and a red shirt.
 
 ### 1.2 Letter Collection System
 - **REQ-1.2.1**: Letters (A-Z) must be collectible objects placed throughout the game world
@@ -15,6 +17,8 @@
 - **REQ-1.2.3**: Collected letters must be stored in player inventory
 - **REQ-1.2.4**: UI must display currently collected letters
 - **REQ-1.2.5**: Letters can be collected via collision or interaction
+- **REQ-1.2.1**: New letters must periodically fall into the game world.
+- **REQ-1.2.1**: New letters must have a bouncing animation upon hitting the ground in the game world.
 
 ### 1.3 Word Spelling System
 - **REQ-1.3.1**: Game must have a predefined list of target words to spell
@@ -22,6 +26,8 @@
 - **REQ-1.3.3**: UI must show current word challenge/objective
 - **REQ-1.3.4**: System must provide feedback when a word is successfully spelled
 - **REQ-1.3.5**: Multiple difficulty levels with increasing word complexity (optional: 3-letter words → 5+ letter words)
+- **REQ-1.3.6**: System must validate a player's word collection when the player interacts with a friendly NPC
+- **REQ-1.3.7**: Upon interacting with an NPC, the system must validate that the player has collected the letters to match or complete the NPC's name
 
 ### 1.4 Game World
 - **REQ-1.4.1**: Colorful, happy aesthetic with bright colors and friendly design
@@ -30,6 +36,20 @@
 - **REQ-1.4.4**: Interactive objects beyond letters (NPCs, decorations, obstacles)
 - **REQ-1.4.5**: Clear boundaries and navigation paths
 
+  ### 1.5 Non-Player Characters
+- **REQ-1.5.1**: NPCs must have a happy aesthetic with bright colors and friendly, cartoonish design
+- **REQ-1.5.**: Game must have friendly and unfriendly NPCs
+- **REQ-1.5.**: Friendly NPCs must be animated, anthromorphized representations of common animals and things that young children will recognize.
+- **REQ-1.5.**: Friendly NPCs must have happy faces and cheerful animations.
+- **REQ-1.5.**: Friendly NPCs must have names that are between 2 and 5 characters long
+- **REQ-1.5.**: Frinedly NPC names must match the object that the friendly NPC looks like. E.g., if a friendly NPC is an anthromorphic hat, the NPC's name will be HAT.  If a friendly NPC is a bear, the NPC's name will be BEAR.
+- **REQ-1.5.**: Friendly NPC names must be displayed above or below the friendly NPC
+- **REQ-1.5.**: Friendly NPC names must be missing a letter.
+- **REQ-1.5.**: Unfriendly NPCs must be animated, cartoonish monsters.
+- **REQ-1.5.**: Unfriendly NPCs must have angry faces.
+- **REQ-1.5.**: Unfriendly NPCs must not have names.
+- **REQ-1.5.**: Unfriendly NPCs must not have any text displayed near them.
+- 
 ## 2. Technical Requirements
 
 ### 2.1 Unity Engine
