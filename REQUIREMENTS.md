@@ -17,8 +17,8 @@
 - **REQ-1.2.3**: Collected letters must be stored in player inventory
 - **REQ-1.2.4**: UI must display currently collected letters
 - **REQ-1.2.5**: Letters can be collected via collision or interaction
-- **REQ-1.2.1**: New letters must periodically fall into the game world.
-- **REQ-1.2.1**: New letters must have a bouncing animation upon hitting the ground in the game world.
+- **REQ-1.2.6**: New letters must periodically fall into the game world.
+- **REQ-1.2.7**: New letters must have a bouncing animation upon hitting the ground in the game world.
 
 ### 1.3 Word Spelling System
 - **REQ-1.3.1**: Game must have a predefined list of target words to spell
