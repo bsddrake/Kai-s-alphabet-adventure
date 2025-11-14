@@ -31,7 +31,7 @@
 
 ### 1.4 Game World
 - **REQ-1.4.1**: Colorful, happy aesthetic with bright colors and friendly design
-- **REQ-1.4.2**: Environment must be 2D with clear visual depth/layering
+- **REQ-1.4.2**: Environment must be 2D top-down or isometric with clear visual depth/layering
 - **REQ-1.4.3**: Multiple areas or levels to explore
 - **REQ-1.4.4**: Interactive objects beyond letters (NPCs, decorations, obstacles)
 - **REQ-1.4.5**: Clear boundaries and navigation paths
